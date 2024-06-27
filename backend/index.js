@@ -14,6 +14,11 @@ app.use(cors(
     }
 ));
 
+app.get('/', (req, res) => {
+    res.send('hit');
+});
+
+
 app.post('/authenticate',async (req,res)=>{
     const {username} = req.body;
     
