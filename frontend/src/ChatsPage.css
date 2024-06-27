@@ -1,0 +1,30 @@
+/* Apply the Poppins font to all elements within the chat window */
+.chat-window * {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Customize the header */
+.chat-window .chat-header {
+    background-color: #4A90E2; /* Example color */
+    color: #FFFFFF;
+}
+
+/* Customize the message input */
+.chat-window .chat-input {
+    background-color: #F5F5F5; /* Example color */
+    color: #333333;
+}
+
+/* Customize the messages */
+.chat-window .message {
+    background-color: #FFFFFF; /* Example color */
+    color: #333333;
+}
+
+.chat-window .message.incoming {
+    background-color: #E0E0E0; /* Example color for incoming messages */
+}
+
+.chat-window .message.outgoing {
+    background-color: #DCF8C6; /* Example color for outgoing messages */
+}
