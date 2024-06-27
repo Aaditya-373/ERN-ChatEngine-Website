@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors(
     {
-        origin:["https://ern-chat-engine-website-frontend.vercel.app/"],
+        origin:["ern-chat-engine-website-frontend-9egqi7dtx.vercel.app/"],
         methods:["POST","GET","PUT","DELETE"],
         credentials:true
     }
