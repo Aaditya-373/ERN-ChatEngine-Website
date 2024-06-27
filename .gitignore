@@ -1,7 +1,6 @@
 backend/node_modules
 .env
 frontend/node_modules
-links.txt
 frontend/src/assets/react.svg
 frontend/src/assets/5079724.jpg
 frontend/src/assets/realistic-style-technology-particle-background.png
