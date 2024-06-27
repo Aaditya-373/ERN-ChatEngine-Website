@@ -6,7 +6,13 @@ const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
 app.use(express.json());
-app.use(cors({origin:true}));
+app.use(cors(
+    {
+        origin:[""],
+        methods:["POST","GET","PUT","DELETE"],
+        credentials:true
+    }
+));
 
 app.post('/authenticate',async (req,res)=>{
     const {username} = req.body;
