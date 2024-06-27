@@ -11,7 +11,7 @@ function LoginPage({ onAuth }) {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.post('http://localhost:3001/authenticate', { username });
+      const response = await axios.post('ern-chat-engine-website-server.vercel.app/authenticate', { username });
       onAuth(response.data);
     } catch (error) {
       setError('Login failed, please try again.');
