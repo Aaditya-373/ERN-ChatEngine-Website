@@ -23,7 +23,7 @@ function LoginPage({ onAuth }) {
   return (
     <div className="login-page">
       <div className="login-container">
-        <h1>CockChat εつ</h1>
+        <h1>PopChatε</h1>
         <input
           type="text"
           placeholder="Username"
